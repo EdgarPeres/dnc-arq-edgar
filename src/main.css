@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Definir alguns padrões */
+body {
+  /* Alguns navegadores colocam margen indesejavéis*/
+  margin: 0;
+  /* Fazer o site ficar sempre cobrindo o tamanho máximo da tela */
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #4D5053;
+  background-color: #fff;
+}
+
+/*Remover o estilo padrão do hiperlinks*/
+a {
+  text-decoration: none;
+}
+
+/* Main Color */
+
+.primary-backgorund {
+  background-color: #0C70F2;
+}
+
+.primary-color {
+  background-color: #0C70F2;
+}
+
+.secondary-backgorund {
+  background-color: #1D1D1D;
+}
+
+.secondary-color {
+  background-color: #1D1D1D;
+}
+
+.tertiary-backgorund {
+  background-color: #F6F6F6;
+}
+
+.tertiary-color {
+  background-color: #F6F6F6;
+}
+
+/* GRID */
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.al-end{
+  align-items: end;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.fd-column{
+  flex-direction: column;
+}
+.fd-row{
+  flex-direction: row;
+}
+
+.jc-center{
+  justify-content: center;
+}
+.jc-end{
+  justify-content: end;
+}
+.jc-space-betwen{
+  justify-content: space-between;
+}
+
+@media(max-width:768px){
+  .container{
+    width: 90%;
+  }
+
+  .mobile-fd-column {
+    flex-direction: column;
+  }
+
+}
