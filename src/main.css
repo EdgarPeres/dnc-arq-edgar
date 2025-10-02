@@ -44,6 +44,22 @@ a {
   background-color: #F6F6F6;
 }
 
+.gray-1-color{
+  color: #4D5053;
+}
+
+/*TYPOGRAPHY*/
+h1,h2,h3,h4,h5,h6{
+  font-family: "DM Serif Display";
+}
+p{
+  line-height: 150%;
+}
+
+.txt-center{
+  text-align: center;
+}
+
 /* GRID */
 .container{
   margin: 0 auto;
@@ -59,6 +75,9 @@ a {
 
 .al-end{
   align-items: end;
+}
+.al-start{
+  align-items: start;
 }
 
 .d-flex{

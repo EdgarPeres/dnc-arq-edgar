@@ -8,7 +8,7 @@ import './Header.css'
 
 function Header() {
     return (
-        <>
+        <header>
             <div className="container">
                 <div className="al-center d-flex jc-space-betwen">
                     <Link to="/"><img src={Logo} /></Link>
@@ -24,7 +24,7 @@ function Header() {
                 </div>
                
             </div>
-        </>
+        </header>
     )
 }
 
