@@ -1,8 +1,15 @@
+import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer"
+import Banner from "../components/Banner/Banner"
+import AboutText from "../components/AboutText/AboutText"
+
 function About() {
     return (
         <>
-        <h1>About</h1>
-        <p>subtitle about</p>
+            <Header />
+            <Banner title="About" image="About.jpg" />
+            <AboutText />
+            <Footer />
         </>
     )
 }
