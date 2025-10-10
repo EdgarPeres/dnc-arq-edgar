@@ -28,6 +28,9 @@ nav a:hover {
 .mobile-menu {
     display: none;
 }
+.close-btn{
+    display: none;
+}
 
 @media(max-width: 768px) {
     nav.open {
