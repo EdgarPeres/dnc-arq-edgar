@@ -1,3 +1,4 @@
+import { useContext } from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
 
@@ -7,11 +8,21 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
+//COMPONENTS
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner'
+
+
 //UTILS
 import ScrollToTop from './utils/ScroolTop'
+import { AppContext } from './contexts/AppContext'
 
 
 function App() {
+  const appContext = useContext(AppContext)
+
+  if (appContext.loading){
+    return <LoadingSpinner/>
+  }
 
   return (
     /* Criação de rotas */

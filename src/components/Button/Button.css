@@ -50,3 +50,15 @@
     color: #666;
     pointer-events: none;
 }
+
+/*UNSTYLED*/
+.unstyled {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    margin: 0 0 12px;
+    padding: 12px;
+    width: fit-content;
+}
